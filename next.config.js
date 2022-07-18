@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  env: {},
+  images: {
+    domains: ['cdn.shopify.com'],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
